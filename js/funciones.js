@@ -40,7 +40,7 @@ function pintarTarea(pTarea) {
     button.id = "borrar";
     let h3 = document.createElement('h3');
     let ul = document.createElement('ul');
-    let liId = document.createElement('li');
+
     let div = document.createElement('div');
     div.className = "prioridad";
 
@@ -51,7 +51,7 @@ function pintarTarea(pTarea) {
 
 
 
-    liId.innerText = 'ID Tarea: ' + pTarea.idTarea
+
 
     button.appendChild(contentButton);
     h3.appendChild(contentH3);
@@ -59,7 +59,7 @@ function pintarTarea(pTarea) {
     div.appendChild(contentPrioridad);
 
 
-    ul.appendChild(liId);
+
     article.appendChild(button);
     article.appendChild(h3);
 
