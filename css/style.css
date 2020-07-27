@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: darkkhaki;
+    min-height: 150px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 10px solid black;
+}
+
+header .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header #prioridad2 {
+    background-color: cornflowerblue;
+}
+
+main h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 60px;
+    margin: 10px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style: none;
+}
+
+#tareas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tareas article {
+    border: 1px solid black;
+    margin: 1.5%;
+    padding: 60px;
+    box-shadow: 5px 5px 5px 0px grey;
+    width: 80%;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+#tareas article ul {
+    margin-bottom: 20px;
+}
+
+#tareas article .prioridad {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: burlywood;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    border-top: darkred 2px solid;
+}

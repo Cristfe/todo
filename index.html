@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/modelo.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div>
+                <H3>AGREGAR TAREA</H3>
+                <select id="prioridad2">
+                    <option value="Urgente">Urgente</option>
+                    <option value="Diaria">Diaria</option>
+                    <option value="Mensual">Mensual</option>
+                </select>
+                <input type="text" id="nuevaTarea" placeholder="Introducir Tarea">
+
+
+
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div>
+                <h3>BUSCAR POR PRIORIDAD</h3>
+                <select id="prioridad">
+                    <option value="Urgente">Urgente</option>
+                    <option value="Diaria">Diaria</option>
+                    <option value="Mensual">Mensual</option>
+                </select>
+                <h3>BUSCAR POR NOMBRE</h3>
+                <input type="text" id="tareaTitulo" placeholder="">
+            </div>
+
+
+        </div>
+    </header>
+
+    <body>
+        <section id="tareas"></section>
+
+    </body>
+
+
+    <script src="js/funciones.js"></script>
+    <script src="js/eventos.js"></script>
+
+
+</body>
+
+</html>
